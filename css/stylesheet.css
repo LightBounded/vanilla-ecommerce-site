@@ -1,0 +1,153 @@
+body {
+  overflow-x: hidden;
+}
+
+#banner-message {
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+}
+
+.form-inline img {
+  width: 2rem;
+}
+
+#header-image-container {
+  height: 30rem;
+  position: relative;
+  background-color: black;
+}
+
+#header-image-content {
+  padding-top: 10rem;
+  z-index: 1;
+}
+
+#header-image-content h1 {
+  font-size: 2.5rem;
+}
+
+#header-image-content p {
+  font-size: x-small;
+}
+
+#header-image {
+  background-image: url(background.jpg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.75;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+
+footer {
+  background-color: #1a1a1a;
+  padding: 2.5rem;
+  color: #ffffff;
+}
+
+.footer-navigation a {
+  padding: 0.25rem;
+}
+
+#footer-email {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #ffffff;
+}
+
+#footer-email:focus {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #ffffff;
+}
+
+#footer-submit-email {
+  line-height: 0;
+}
+
+#footer-social-icons {
+  margin-top: 1.5rem;
+}
+
+#footer-social-icons a {
+  padding: 0.25rem;
+}
+
+/* Collapse */
+#collapse-nav {
+  position: fixed;
+  height: 100%;
+  width: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  transition: 0.5s;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.95);
+  overflow-x: hidden;
+}
+
+#collapse-content {
+  position: relative;
+  top: 15%;
+}
+
+#collapse-content a {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.35rem;
+}
+
+/* Position the close button (top right corner) */
+#collapse-nav #collapse-dismiss {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  text-decoration: none;
+  font-size: 4rem;
+}
+
+@media screen and (max-height: 450px) {
+  #collapse-nav a {
+    font-size: 20px;
+  }
+  #collapse-nav #collapse-dismiss {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+#modal-product-quantity {
+  width: 6rem;
+}
+
+#modal-login-register {
+  margin-top: 10rem;
+}
+
+.swal2-popup {
+  border-radius: 0 !important;
+}
+
+.swal2-title {
+  color: #1a1a1a !important;
+  text-transform: uppercase !important;
+}
+
+.swal2-content {
+  color: #55595c !important;
+  font-size: 20px !important;
+}
+
+.swal2-confirm {
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 0 !important;
+  background-color: #1a1a1a !important;
+}
